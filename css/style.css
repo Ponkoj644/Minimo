@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* max-width: 1140px; */
+  /* width: 90%; */
+  margin: auto;
+  font-family: "Playfair Display", serif;
+}
+/* html body {
+  list-style: none;
+  text-decoration: none;
+  overflow-x: hidden;
+} */
+h1 {
+  margin: 0;
+  color: #626262;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+h5 {
+  margin: 0;
+  color: #b4ad9e;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+p {
+  color: #626262;
+  font-size: 16px;
+  margin: 30px 0;
+}
+/* Navigation */
+nav {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+.toggler-icon {
+  width: 20px;
+  height: 2px;
+  background-color: #e74c3c;
+  display: block;
+  transition: all 0.2s;
+}
+.navbar-toggler .middle-bar {
+  margin: 5px auto;
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 5% 0%;
+}
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 0% 5%;
+}
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #777777;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  margin-left: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #626262;
+}
+
+/* Banner section */
+.banner {
+  width: 90%;
+  margin: auto;
+}
+.banner .banner-image img {
+  width: 100%;
+}
+
+/* Photodiary section */
+.photodiary {
+  width: 80%;
+  margin: auto;
+  padding: 100px 0;
+}
+
+.lifestyle-content {
+  /* margin-top: 50px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.lifestyle {
+  /* background-color: red; */
+  width: 48%;
+  margin-top: 50px;
+}
+.lifestyle img {
+  width: 100%;
+}
+.lifestyle h5 {
+  margin: 20px 0;
+  font-size: 14px;
+}
+.lifestyle h1 {
+  font-size: 30px;
+}
+.lifestyle p {
+  margin: 20px 0;
+}
+
+/* SignUp section */
+.signup {
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 100px 0;
+}
+.signup-content {
+  width: 37%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.signup-content h1 {
+  color: #333333;
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 100px;
+}
+.signup-content input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 5px 0;
+  caret-color: black;
+}
+.signup-content input::placeholder {
+  font-size: 20px;
+  color: #333333;
+  text-transform: capitalize;
+}
+.signup-content input:focus {
+  outline: none;
+}
+.icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(0px, -5px);
+}
+.icon img {
+}
+/* Photodiary section end */
+
+/* Loadmore section*/
+
+.loadmore {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loadmore button {
+  background-color: transparent;
+  border: none;
+  border: 1px solid #929292;
+  padding: 30px;
+  font-size: 20px;
+}
+/* Loadmore section end*/
+
+.footer {
+  background-color: #f0f0f0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.footer-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.terms {
+  width: 25%;
+}
+.terms ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.terms ul li {
+}
+.terms ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #626262;
+}
+.social-media {
+  width: 20%;
+}
+.social-media ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.social-media ul li {
+  text-transform: capitalize;
+}
+.social-media ul li a {
+  color: #626262;
+  font-size: 20px;
+}

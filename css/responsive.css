@@ -1,0 +1,126 @@
+@media (max-width: 1440px) {
+  .signup-content h1 {
+    font-size: 40px;
+  }
+}
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+  .signup-content h1 {
+    font-size: 30px;
+  }
+  .terms {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .signup-content h1 {
+    font-size: 30px;
+  }
+  .signup-content input::placeholder {
+    font-size: 16px;
+  }
+  .terms {
+    width: 30%;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin-left: 0px;
+  }
+  .terms {
+    width: 35%;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin-left: 0px;
+  }
+  .photodiary h1 {
+    font-size: 25px;
+  }
+  .photodiary p {
+    font-size: 16px;
+  }
+  .lifestyle h1 {
+    font-size: 20px;
+  }
+  .lifestyle p {
+    font-size: 14px;
+  }
+  .signup-content {
+    width: 45%;
+  }
+  .signup-content h1 {
+    font-size: 28px;
+  }
+  .terms {
+    width: 42%;
+  }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin-left: 0px;
+    font-size: 16px;
+  }
+  .photodiary {
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+  }
+  .photodiary h5 {
+    margin-bottom: 25px;
+  }
+  .photodiary h1 {
+    font-size: 25px;
+  }
+  .photodiary p {
+    font-size: 14px;
+  }
+  .lifestyle {
+    width: 100%;
+  }
+  .lifestyle h1 {
+    font-size: 1.5rem;
+  }
+  .signup {
+    padding: 80px 0;
+  }
+  .signup-content {
+    width: 52%;
+  }
+  .signup-content h1 {
+    font-size: 1.5rem;
+  }
+  .signup-content input::placeholder {
+    font-size: 14px;
+  }
+  .loadmore {
+    height: 200px;
+  }
+  .loadmore button {
+    padding: 25px;
+    font-size: 16px;
+  }
+  .footer-content {
+    display: block;
+  }
+  .terms {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .social-media {
+    width: 100%;
+  }
+
+  .footer .terms ul {
+    margin: 0;
+    padding: 0;
+  }
+}
